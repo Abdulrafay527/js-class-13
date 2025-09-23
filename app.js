@@ -1,10 +1,10 @@
 // var str = "SMIT Sayalni";
 
-// console.log(str.lastIndexOf("M"))
+// console.log(str.lastIndexOf("M"));
 
-var arr = ['ghous' , 'ahmed' , 'ali']
+// var arr = ['ghous' , 'ahmed' , 'ali'];
 
-console.log(arr.indexOf("ali"))
+// console.log(arr.indexOf("ali"));
 
 
 
@@ -26,4 +26,71 @@ console.log(arr.indexOf("ali"))
 //     }
 // }
 
+// console.log(str);
+
+
+// var str = "Sayalni SMIT SMIT Sas SMIT ada SMIT";
+// var word = "SMIT";
+// var rep = "Sayalni";
+// var khali = "";
+// var count = 0;
+
+// for(i = 0; i < str.length; i++){
+//     var find = str.slice(i , 1 + word.length);
+//     if(find === word){
+//         count++;
+//         if(count === 3){
+//             str = str.slice(0 , i) + rep + str.slice(i + word.length)
+//         }
+//     }
+
+// }
+
+// console.log(str);
+
+// var str = "Sayalni SMIT SMIT Sas SMIT ada SMIT";
+// var word = "SMIT";
+// var rep = "Sayalni";
+// var khali = "";
+// var count = 0;
+
+// for(i = 0; i < str.length; i++){
+//     var find = str.slice(i , 1 + word.length);
+//     if(find === word){
+//         count++
+//         if(count === 3){
+//           str = str.slice(0 , i) + rep + str.slice(i + word.length)
+//         }
+//     }
+// }
+
 // console.log(str)
+
+
+// var str = "Sayalni SMIT SMIT Sas SMIT ada SMIT";
+
+// console.log(str.replaceAll("Sayalni" , "SMIT"));
+
+
+// var str = "Sayalni SMIT SMIT Sas SMIT ada SMIT";
+// var word = "SMIT";
+// var rep = "Sayalni";
+// var khali = "";
+// var count = 0;
+
+// for(i = 0; i < str.length; i++){
+//     var find = str.slice(i , i + word.length); 
+//     if( find === word){
+//         count++;
+//         if(count === 3){
+//             str = str.slice(0,i) + rep + str.slice(i + word.length)
+//         }
+//     }
+// }
+
+// console.log(str)
+// var arr = ["rafay","gulzar","moosa"]
+
+// // var arr2 = arr.slice(1,3)
+
+// console.log(arr2)
