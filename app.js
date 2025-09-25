@@ -94,3 +94,25 @@
 // // var arr2 = arr.slice(1,3)
 
 // console.log(arr2)
+
+var player1 = prompt("had or tails").toLowerCase()
+var randomNum = Math.round(Math.random());
+var value;
+console.log(randomNum);
+if(randomNum == 1){
+    value = "had";
+}
+else{
+    value = "tails";
+}
+
+if(value == player1){
+    alert(`It's ${value} Player1 WINS!`);
+}else{
+    alert(`It's ${value} CPU WINS!`);
+}
+
+
+
+
+
